@@ -1,11 +1,24 @@
-const logEvents = require("./logEvents");
-const eventEmitter = require("events");
+const path = require("path");
+const express = require("express");
+const app = express();
+const PORT = process.env.PORT || 3500;
 
-class Emitter extends eventEmitter {}
+app.get("^/$|/index(.html)?", (req, res) => {
+  res.sendFile(path.join(__dirname, "views", "index.html"));
+});
 
-const myEmitter = new Emitter();
+app.get("/new-page(.html)?", (req, res) => {
+  res.sendFile(path.join(__dirname, "views", "new-page.html"));
+});
 
-myEmitter.on("log", (msg) => logEvents(msg));
+app.get("/old-page(.html)?", (req, res) => {
+  res.redirect(301, "/new-page.html");
+});
 
-setTimeout(() => myEmitter.emit("log", "Log event emitted"), 2000);
-setTimeout(() => myEmitter.emit("log", "Log event emitted, once more"), 2000);
+app.get("/*", (req, res) => {
+  res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
+});
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});

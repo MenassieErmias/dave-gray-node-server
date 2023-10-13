@@ -1,0 +1,14 @@
+2023-10-13	13:48:33	407ed8a9-8647-47ab-a0bb-5366afeeb306	GET	undefined	/
+2023-10-13	13:48:33	0cc5e2c3-b3ad-4916-a428-2d38bec7e88d	GET	undefined	/css/styles.css
+2023-10-13	13:48:35	bde6fea3-5fc1-4e21-b0d9-8803b8ba8534	GET	undefined	/
+2023-10-13	13:48:35	717e85a4-303a-4846-8e33-20dde3118cb9	GET	undefined	/css/styles.css
+2023-10-13	13:48:36	72045e9c-2a99-43b5-bb33-72b20adacedb	GET	undefined	/
+2023-10-13	13:48:36	6ab5ac24-0531-445a-ab50-386d565f67e8	GET	undefined	/css/styles.css
+2023-10-13	13:48:36	88a3b4e0-b923-4989-a0b9-d5f76b6dac07	GET	undefined	/
+2023-10-13	13:48:36	5f0ac9b1-91e1-4871-a095-a27141437102	GET	undefined	/css/styles.css
+2023-10-13	13:48:36	b0ad4d07-64dd-4f7f-949c-844e339a1043	GET	undefined	/
+2023-10-13	13:48:36	d9e1cab0-bb1b-48f2-b659-695ab96be37e	GET	undefined	/css/styles.css
+2023-10-13	13:48:56	51d47ce5-747a-4670-8316-46edf855b62f	GET	undefined	/old-page
+2023-10-13	13:48:56	a507d713-79fc-4cfb-a222-4b206f1a00ce	GET	undefined	/new-page.html
+2023-10-13	13:48:56	cfdd7a41-6065-4898-91b7-368d511fbbaf	GET	undefined	/css/styles.css
+2023-10-13	13:48:56	4874efca-065e-4e04-b590-e0e873914080	GET	undefined	/images/Home.png

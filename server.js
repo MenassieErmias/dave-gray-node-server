@@ -1,7 +1,20 @@
 const path = require("path");
 const express = require("express");
 const app = express();
+const logEvents = require("./middleware/logEvents");
 const PORT = process.env.PORT || 3500;
+
+// CUSTOM MIDDLEWARE
+app.use((req, res, next) => {
+  logEvents(`${req.method}\t${req.headers.origin}\t${req.url}`, "reqLog.txt");
+  console.log(`${req.method}`);
+  next();
+});
+
+// MIDDLEWARE
+app.use(express.urlencoded({ extended: false })); //for form data
+app.use(express.json()); //for JSON
+app.use(express.static(path.join(__dirname, "public")));
 
 app.get("^/$|/index(.html)?", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));

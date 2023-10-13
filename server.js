@@ -4,23 +4,13 @@ const app = express();
 const { logger } = require("./middleware/logEvents");
 const PORT = process.env.PORT || 3500;
 const cors = require("cors");
+const corsOptions = require("./config/corsOptions");
 const errorHandler = require("./middleware/errorHandler");
 
 // CUSTOM MIDDLEWARE
 app.use(logger);
 
 // THIRD PARTY MIDDLEWARE
-const whiteList = ["https://www.google.com", "http://localhost:3500"];
-const corsOptions = {
-  origin: (origin, callback) => {
-    if (whiteList.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not Allowed by CORS"));
-    }
-  },
-  optionsSuccesStatus: 200,
-};
 app.use(cors(corsOptions));
 
 // MIDDLEWARE

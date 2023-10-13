@@ -1,0 +1,30 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "node server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MenassieErmias/dave-gray-node-server.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Menassie Ermias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MenassieErmias/dave-gray-node-server/issues"
+  },
+  "homepage": "https://github.com/MenassieErmias/dave-gray-node-server#readme",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

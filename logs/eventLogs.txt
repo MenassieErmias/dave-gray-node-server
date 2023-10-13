@@ -1,0 +1,2 @@
+2023-10-13	12:31:17	2daccd7a-ffe5-4983-9cba-eec401f1c43d	Log event emitted
+2023-10-13	12:31:17	e65fd6b2-86d9-4e1f-9fcc-677fb454d4cf	Log event emitted, once more

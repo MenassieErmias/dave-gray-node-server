@@ -176,3 +176,14 @@
 2023-10-13	15:37:33	6fbae808-842d-4050-a16c-ff268cae08b5	GET	undefined	/employees/2
 2023-10-13	15:37:54	c9f81073-a111-45f9-9aa1-93b1f6278a8e	GET	undefined	/employees/2
 2023-10-13	15:37:59	deee1d47-a220-4231-9477-66d06116c8f4	GET	undefined	/employees/1
+2023-10-17	14:17:43	5b3fc858-1098-4967-8394-516483d9af18	GET	undefined	/
+2023-10-17	14:17:43	ff5f07bc-1de8-427b-bd30-113ac085c48b	GET	undefined	/css/styles.css
+2023-10-17	14:17:43	f20f8e53-034b-4b5a-a309-315418867cfe	GET	undefined	/favicon.ico
+2023-10-17	14:41:15	8d174024-8b97-47ef-8821-04e5bce69b5c	GET	undefined	/registe
+2023-10-17	14:41:18	f556cf00-a67a-489b-9b5b-08c919851df3	GET	undefined	/register/
+2023-10-17	14:41:53	b0a01cf4-3743-446e-af26-8e70526cc02f	GET	undefined	/register
+2023-10-17	14:43:05	354edfc8-b85f-4b0d-a50d-a6e37d3457e5	GET	undefined	/register
+2023-10-17	14:44:04	77fbc267-4392-4f12-b27c-d55af518d2e8	POST	undefined	/register
+2023-10-17	14:48:05	1ad9a6c4-7632-46bf-8b04-be7c974ec87f	POST	undefined	/register
+2023-10-17	14:56:03	f000a215-abd6-4d56-9f37-0aaa877da683	POST	undefined	/auth
+2023-10-17	14:56:38	6a9b597d-d76b-4c7d-bfd0-61835b21dabe	POST	undefined	/auth
